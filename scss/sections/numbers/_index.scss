@@ -1,0 +1,60 @@
+.numbers {
+  padding: 100px 0;
+  background: linear-gradient(106deg, #3454d8 38.68%, #5ec291 100%);
+
+  .description {
+    margin-bottom: 60px;
+  }
+
+  &-item {
+    padding: 0 35px 48px;
+    position: relative;
+
+    &:not(:last-child):before {
+      content: '';
+      position: absolute;
+      right: 0;
+      top: 10px;
+      height: calc( 100% - 10px);
+      width: 1px;
+      background-color: #fff;
+      opacity: 0.2;
+    }
+  }
+
+  &-icon {
+    margin: 0 auto 25px;
+    width: 102px;
+    height: 102px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-image: url('../img/numbers/bg-circle.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+  &-statistic {
+    color: #fff;
+    text-align: center;
+    font-size: 34px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-bottom: 20px;
+  }
+
+  &-title {
+    color: #fff;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 450;
+    line-height: 26px;
+    text-transform: uppercase;
+  }
+
+  &-items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+}

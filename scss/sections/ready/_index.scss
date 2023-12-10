@@ -1,0 +1,42 @@
+.ready {
+  padding: 100px 0;
+
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  &-row {
+    display: grid;
+    align-items: center;
+    grid-template-columns: max-content 1fr;
+    gap: 24px;
+    margin-bottom: 15px;
+  }
+
+  &-in {
+    display: block;
+  }
+
+  &-text {
+    color: #6c6c6c;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+  }
+
+  &-btns {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    gap: 35px;
+  }
+
+  .text {
+    line-height: 26px;
+    margin-bottom: 60px;
+  }
+
+  .title {
+    margin-bottom: 40px;
+  }
+}

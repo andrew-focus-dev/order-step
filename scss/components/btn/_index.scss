@@ -1,0 +1,47 @@
+.btn {
+  display: grid;
+  align-items: end;
+  gap: 10px;
+  justify-content: center;
+  grid-template-columns: max-content max-content;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #000;
+  font-weight: 500;
+  text-transform: uppercase;
+  padding: 20px 36px;
+  transition: background-color 0.3s, color 0.3s;
+  font-size: 16px;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &-icon {
+    display: block;
+    width: 9px;
+  }
+
+  &.btn--blue {
+    background-color: #3454d8;
+    color: #fff;
+    transition: background-color 0.3s, color 0.3s;
+  }
+
+  &.btn--service {
+    color: #fff;
+    padding: 25px 40px;
+    background-color: #5ec291;
+    border: 1px solid #5ec291;
+    border-radius: 32px;
+  }
+
+  &.btn--border {
+    background-color: #fff;
+    color: #000;
+  }
+
+  &.btn--features {
+    background-color: #f1f8f8;
+  }
+}

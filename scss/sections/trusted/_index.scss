@@ -1,0 +1,26 @@
+.trusted {
+  padding: 100px 0 93px;
+
+  &-title {
+    color: #343289;
+    text-align: center;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 30px;
+    text-transform: uppercase;
+    margin-bottom: 68px;
+  }
+
+  &-image {
+    filter: grayscale(1);
+  }
+
+  .swiper-wrapper{ 
+    align-items: center;
+  }
+
+  .swiper-slide {
+    display: flex;
+    justify-content: center;
+  }
+}

@@ -1,0 +1,115 @@
+.read {
+  padding: 100px 0;
+  background-color: #f8f8f8;
+
+  .title {
+    font-size: 37px;
+  }
+
+  .description {
+    margin-bottom: 50px;
+  }
+
+  &-slider {
+    position: relative;
+
+    .swiper-slide {
+      padding: 80px 60px 60px;
+      background-color: #fff;
+      border-radius: 10px;
+      height: auto;
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: max-content 1fr;
+
+      .slide {
+        &-stars {
+          margin-bottom: 30px;
+        }
+
+        &-text {
+          line-height: 26px;
+          margin-bottom: 10px;
+        }
+
+        &-play {
+          display: flex;
+          align-items: center;
+          color: #000;
+          font-size: 18px;
+          font-weight: 600;
+          line-height: normal;
+          text-transform: uppercase;
+
+          img {
+            margin-right: 18px;
+            width: 35px;
+          }
+        }
+
+        &-username {
+          color: #000;
+          font-size: 20px;
+          font-weight: 450;
+        }
+
+        &-avatar {
+          border-radius: 18px;
+        }
+
+        &-position {
+          color: #5ec291;
+          font-size: 14px;
+          font-weight: 400;
+          line-height: 36px;
+        }
+
+        &-user {
+          display: flex;
+          align-items: center;
+          gap: 30px;
+          padding-top: 30px;
+          margin-top: 60px;
+          border-top: 1px solid rgba(108, 108, 108, 0.15);
+        }
+      }
+    }
+  }
+
+  &-navigation {
+    height: 100%;
+    width: calc(100% + 50px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: -25px;
+
+    &__right,
+    &__left {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: max-content;
+      height: max-content;
+      padding: 12px;
+      background-color: #f8f8f8;
+      border-radius: 100%;
+      z-index: 10;
+
+      img {
+        width: 26px;
+        height: 26px;
+      }
+
+      &:hover {
+        cursor: pointer;
+      }
+
+      &.swiper-button-disabled:hover {
+        cursor: auto;
+      }
+    }
+  }
+}

@@ -1,0 +1,20 @@
+.free {
+  margin-bottom: 100px;
+
+  &-wraper {
+    padding: 80px 80px 70px;
+    border-radius: 10px;
+    border: 1px solid #5ec291;
+  }
+
+  &-row {
+    display: grid;
+    align-items: center;
+    gap: 149px;
+    grid-template-columns: 1fr max-content;
+  }
+
+  .text {
+    line-height: 26px;
+  }
+}

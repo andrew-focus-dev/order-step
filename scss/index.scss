@@ -1,0 +1,23 @@
+@import '../fonts/index';
+@import './utils/reset';
+@import './utils/variable';
+@import './utils/mixins';
+@import './components/index';
+@import './vendors/index';
+
+* {
+  font-family: 'Maven Pro', sans-serif;
+}
+
+.container {
+  max-width: 1164px;
+  width: 95%;
+  margin: 0 auto;
+
+  &.container--small {
+    max-width: 1005px;
+  }
+}
+
+@import './layout/index';
+@import './sections/index';

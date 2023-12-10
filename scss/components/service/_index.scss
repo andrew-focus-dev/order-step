@@ -1,0 +1,87 @@
+.service {
+  background-color: #f8f8f8;
+  padding: 60px 40px;
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, max-content) 0.5fr 1fr repeat(2, max-content);
+
+  &-icon {
+    width: 72px;
+    height: 72px;
+    display: block;
+    margin: 0 auto 50px;
+  }
+
+  &-title {
+    color: #343289;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+  }
+
+  &-text {
+    text-align: center;
+    line-height: 26px;
+  }
+
+  &-list {
+    display: grid;
+    gap: 15px;
+    padding-top: 40px;
+    margin: 40px 0;
+    border-top: 1px solid rgba(108, 108, 108, 0.15);
+
+    .list {
+      &-item {
+        display: grid;
+        grid-template-columns: max-content 1fr;
+        gap: 20px;
+      }
+
+      &-icon {
+        width: 18px;
+        height: auto;
+        display: block;
+      }
+    }
+  }
+
+  &-pricing {
+    display: grid;
+    grid-template-columns: max-content max-content;
+    grid-template-areas: 'start .' 'price month';
+    align-items: baseline;
+    margin-bottom: 40px;
+
+    .pricing {
+      &-start {
+        color: #5ec291;
+        font-weight: 400;
+        margin-bottom: 19px;
+        grid-area: start;
+      }
+
+      &-price {
+        color: #343289;
+        font-size: 26px;
+        font-weight: 700;
+        grid-area: price;
+      }
+
+      &-month {
+        color: #606060;
+        font-size: 14px;
+        font-weight: 400;
+        grid-area: month;
+      }
+    }
+  }
+
+  &-btns {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+}

@@ -1,0 +1,17 @@
+.title {
+  color: #343289;
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+
+  &.title--free {
+    color: #5ec291;
+    margin-bottom: 30px;
+  }
+
+  &.title--numbers {
+    text-align: center;
+    color: #fff;
+  }
+}
