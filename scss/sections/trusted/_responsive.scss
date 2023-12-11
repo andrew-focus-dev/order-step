@@ -1,0 +1,31 @@
+@media (max-width: 768px) {
+  .trusted {
+    padding: 50px 0;
+
+    &-title {
+      font-size: 22px;
+      margin-bottom: 40px;
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .trusted {
+    padding: 40px 0;
+
+    &-title {
+      font-size: 18px;
+      line-height: normal;
+      margin-bottom: 30px;
+    }
+  }
+}
+
+@media (max-width: 450px) {
+  .trusted {
+    &-title {
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+  }
+}
