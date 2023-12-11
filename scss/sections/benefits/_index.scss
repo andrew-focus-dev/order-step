@@ -30,9 +30,13 @@
   }
 
   &-row {
-    display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 53px;
+    display: none;
+
+    &.benefits-row--show {
+      display: grid;
+    }
   }
 
   &-icon {

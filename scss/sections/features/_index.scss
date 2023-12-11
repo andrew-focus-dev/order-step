@@ -33,8 +33,12 @@
   }
 
   &-row {
-    display: grid;
     grid-template-columns: 1fr 340px;
     gap: 60px;
+    display: none;
+  }
+
+  &-row.features-row--show {
+    display: grid;
   }
 }

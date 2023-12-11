@@ -9,7 +9,6 @@
   font-weight: 500;
   text-transform: uppercase;
   padding: 20px 36px;
-  transition: background-color 0.3s, color 0.3s;
   font-size: 16px;
 
   &:hover {
@@ -24,7 +23,6 @@
   &.btn--blue {
     background-color: #3454d8;
     color: #fff;
-    transition: background-color 0.3s, color 0.3s;
   }
 
   &.btn--service {
@@ -43,5 +41,9 @@
 
   &.btn--features {
     background-color: #f1f8f8;
+  }
+
+  &.btn--features.btn--blue {
+    background-color: #3454d8;
   }
 }

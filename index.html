@@ -67,17 +67,25 @@
           </p>
 
           <div class="benefits-btns">
-            <button class="btn">Hotels & Events</button>
-            <button class="btn btn--blue">Service</button>
-            <button class="btn">B2B sales</button>
-            <button class="btn">Others</button>
+            <button class="btn" data-tab-btn="Hotels & Events">
+              Hotels & Events
+            </button>
+            <button class="btn" data-tab-btn="Service">Service</button>
+            <button class="btn" data-tab-btn="B2B sales">B2B sales</button>
+            <button class="btn" data-tab-btn="Others">Others</button>
           </div>
         </div>
         <div class="container">
-          <div class="benefits-row">
-            <div class="benefits-item">
-              <h2 class="benefits-title">The Pains we had
-                <img src="./img/benefits/arrow-down.svg" alt="arrow down" class="benefits-icon">
+          <div class="benefits-row" data-tab="Hotels & Events">
+            <div class="benefits-item" data-el="acardion-pains-1">
+              <h2 class="benefits-title">
+                The Pains we had
+                <img
+                  src="./img/benefits/arrow-down.svg"
+                  alt="arrow down"
+                  class="benefits-icon"
+                  data-acardion="acardion-pains-1"
+                />
               </h2>
               <p class="text benefits-description">
                 In the service industry you know how important it is to have
@@ -165,10 +173,609 @@
                 </div>
               </div>
             </div>
-            <div class="benefits-item">
+            <div class="benefits-item" data-el="acardion-gains-1">
               <h2 class="benefits-title">
                 The Gains we got
-                <img src="./img/benefits/arrow-down.svg" alt="arrow down" class="benefits-icon">
+                <img
+                  src="./img/benefits/arrow-down.svg"
+                  alt="arrow down"
+                  class="benefits-icon"
+                  data-acardion="acardion-gains-1"
+                />
+              </h2>
+              <p class="text benefits-description">
+                We ask for 14 days were you get used to the new process of using
+                Orderstep, and then we guarantee these results. It does not take
+                longer. And then you will be running a more smooth business and
+                have much more control with your sales.
+              </p>
+              <div class="benefits-list">
+                <div class="list-item">
+                  <img
+                    src="./img/checkbox.svg"
+                    alt="checkbox"
+                    class="list-icon"
+                  />
+                  <p class="text">Automatically invoices the agreed amount</p>
+                </div>
+                <div class="list-item">
+                  <img
+                    src="./img/checkbox.svg"
+                    alt="checkbox"
+                    class="list-icon"
+                  />
+                  <p class="text">
+                    Being perceived as pro-active with the reminders in
+                    Orderstep
+                  </p>
+                </div>
+                <div class="list-item">
+                  <img
+                    src="./img/checkbox.svg"
+                    alt="checkbox"
+                    class="list-icon"
+                  />
+                  <p class="text">
+                    Automatic PDF created with company branding
+                  </p>
+                </div>
+                <div class="list-item">
+                  <img
+                    src="./img/checkbox.svg"
+                    alt="checkbox"
+                    class="list-icon"
+                  />
+                  <p class="text">
+                    Automatic follow-ups and easy overview of all sales that is
+                    not closed yet
+                  </p>
+                </div>
+                <div class="list-item">
+                  <img
+                    src="./img/checkbox.svg"
+                    alt="checkbox"
+                    class="list-icon"
+                  />
+                  <p class="text">
+                    All TODO's in a single easy managable overview.
+                  </p>
+                </div>
+                <div class="list-item">
+                  <img
+                    src="./img/checkbox.svg"
+                    alt="checkbox"
+                    class="list-icon"
+                  />
+                  <p class="text">
+                    Approvals happens on the portal and is stored in the system.
+                  </p>
+                </div>
+                <div class="list-item">
+                  <img
+                    src="./img/checkbox.svg"
+                    alt="checkbox"
+                    class="list-icon"
+                  />
+                  <p class="text">
+                    Orderstep tracks if customers opens mails and PDF's.
+                  </p>
+                </div>
+                <div class="list-item">
+                  <img
+                    src="./img/checkbox.svg"
+                    alt="checkbox"
+                    class="list-icon"
+                  />
+                  <p class="text">
+                    Keep track of all quotes, the conversion and also why they
+                    did not convert
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="benefits-row" data-tab="Service">
+            <div class="benefits-item" data-el="acardion-pains-2">
+              <h2 class="benefits-title">
+                The Pains we had 3
+                <img
+                  src="./img/benefits/arrow-down.svg"
+                  alt="arrow down"
+                  class="benefits-icon"
+                  data-acardion="acardion-pains-2"
+                />
+              </h2>
+              <p class="text benefits-description">
+                In the service industry you know how important it is to have
+                happy customers. And they will reward you with more business if
+                they are happy. You might recognize some of the pains below, if
+                so we are ready to help.
+              </p>
+              <div class="benefits-list">
+                <div class="list-item">
+                  <img
+                    src="./img/benefits/exclamation-point.svg"
+                    alt="exclamation-point"
+                    class="list-icon"
+                  />
+                  <p class="text">
+                    Forgetting to send or sending wrong monthly invoices.
+                  </p>
+                </div>
+
+                <div class="list-item">
+                  <img
+                    src="./img/benefits/exclamation-point.svg"
+                    alt="exclamation-point"
+                    class="list-icon"
+                  />
+                  <p class="text">
+                    Forgetting or never following up with customers
+                  </p>
+                </div>
+                <div class="list-item">
+                  <img
+                    src="./img/benefits/exclamation-point.svg"
+                    alt="exclamation-point"
+                    class="list-icon"
+                  />
+                  <p class="text">
+                    Manual work of creating a word template and converting to
+                    PDF and sending it.
+                  </p>
+                </div>
+                <div class="list-item">
+                  <img
+                    src="./img/benefits/exclamation-point.svg"
+                    alt="exclamation-point"
+                    class="list-icon"
+                  />
+                  <p class="text">Forgetting to follow-up on sales</p>
+                </div>
+                <div class="list-item">
+                  <img
+                    src="./img/benefits/exclamation-point.svg"
+                    alt="exclamation-point"
+                    class="list-icon"
+                  />
+                  <p class="text">
+                    Yellow notes everywhere, tasks and things in the heads of
+                    people.
+                  </p>
+                </div>
+                <div class="list-item">
+                  <img
+                    src="./img/benefits/exclamation-point.svg"
+                    alt="exclamation-point"
+                    class="list-icon"
+                  />
+                  <p class="text">Manual approvals in mails that disappears</p>
+                </div>
+                <div class="list-item">
+                  <img
+                    src="./img/benefits/exclamation-point.svg"
+                    alt="exclamation-point"
+                    class="list-icon"
+                  />
+                  <p class="text">
+                    Not knowing if a customer got your quote or invoice
+                  </p>
+                </div>
+                <div class="list-item">
+                  <img
+                    src="./img/benefits/exclamation-point.svg"
+                    alt="exclamation-point"
+                    class="list-icon"
+                  />
+                  <p class="text">Not knowing how many quotes is converted</p>
+                </div>
+              </div>
+            </div>
+            <div class="benefits-item" data-el="acardion-gains-2">
+              <h2 class="benefits-title">
+                The Gains we got
+                <img
+                  src="./img/benefits/arrow-down.svg"
+                  alt="arrow down"
+                  class="benefits-icon"
+                  data-acardion="acardion-gains-2"
+                />
+              </h2>
+              <p class="text benefits-description">
+                We ask for 14 days were you get used to the new process of using
+                Orderstep, and then we guarantee these results. It does not take
+                longer. And then you will be running a more smooth business and
+                have much more control with your sales.
+              </p>
+              <div class="benefits-list">
+                <div class="list-item">
+                  <img
+                    src="./img/checkbox.svg"
+                    alt="checkbox"
+                    class="list-icon"
+                  />
+                  <p class="text">Automatically invoices the agreed amount</p>
+                </div>
+                <div class="list-item">
+                  <img
+                    src="./img/checkbox.svg"
+                    alt="checkbox"
+                    class="list-icon"
+                  />
+                  <p class="text">
+                    Being perceived as pro-active with the reminders in
+                    Orderstep
+                  </p>
+                </div>
+                <div class="list-item">
+                  <img
+                    src="./img/checkbox.svg"
+                    alt="checkbox"
+                    class="list-icon"
+                  />
+                  <p class="text">
+                    Automatic PDF created with company branding
+                  </p>
+                </div>
+                <div class="list-item">
+                  <img
+                    src="./img/checkbox.svg"
+                    alt="checkbox"
+                    class="list-icon"
+                  />
+                  <p class="text">
+                    Automatic follow-ups and easy overview of all sales that is
+                    not closed yet
+                  </p>
+                </div>
+                <div class="list-item">
+                  <img
+                    src="./img/checkbox.svg"
+                    alt="checkbox"
+                    class="list-icon"
+                  />
+                  <p class="text">
+                    All TODO's in a single easy managable overview.
+                  </p>
+                </div>
+                <div class="list-item">
+                  <img
+                    src="./img/checkbox.svg"
+                    alt="checkbox"
+                    class="list-icon"
+                  />
+                  <p class="text">
+                    Approvals happens on the portal and is stored in the system.
+                  </p>
+                </div>
+                <div class="list-item">
+                  <img
+                    src="./img/checkbox.svg"
+                    alt="checkbox"
+                    class="list-icon"
+                  />
+                  <p class="text">
+                    Orderstep tracks if customers opens mails and PDF's.
+                  </p>
+                </div>
+                <div class="list-item">
+                  <img
+                    src="./img/checkbox.svg"
+                    alt="checkbox"
+                    class="list-icon"
+                  />
+                  <p class="text">
+                    Keep track of all quotes, the conversion and also why they
+                    did not convert
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="benefits-row" data-tab="B2B sales">
+            <div class="benefits-item" data-el="acardion-pains-3">
+              <h2 class="benefits-title">
+                The Pains we had 2
+                <img
+                  src="./img/benefits/arrow-down.svg"
+                  alt="arrow down"
+                  class="benefits-icon"
+                  data-acardion="acardion-pains-3"
+                />
+              </h2>
+              <p class="text benefits-description">
+                In the service industry you know how important it is to have
+                happy customers. And they will reward you with more business if
+                they are happy. You might recognize some of the pains below, if
+                so we are ready to help.
+              </p>
+              <div class="benefits-list">
+                <div class="list-item">
+                  <img
+                    src="./img/benefits/exclamation-point.svg"
+                    alt="exclamation-point"
+                    class="list-icon"
+                  />
+                  <p class="text">
+                    Forgetting to send or sending wrong monthly invoices.
+                  </p>
+                </div>
+
+                <div class="list-item">
+                  <img
+                    src="./img/benefits/exclamation-point.svg"
+                    alt="exclamation-point"
+                    class="list-icon"
+                  />
+                  <p class="text">
+                    Forgetting or never following up with customers
+                  </p>
+                </div>
+                <div class="list-item">
+                  <img
+                    src="./img/benefits/exclamation-point.svg"
+                    alt="exclamation-point"
+                    class="list-icon"
+                  />
+                  <p class="text">
+                    Manual work of creating a word template and converting to
+                    PDF and sending it.
+                  </p>
+                </div>
+                <div class="list-item">
+                  <img
+                    src="./img/benefits/exclamation-point.svg"
+                    alt="exclamation-point"
+                    class="list-icon"
+                  />
+                  <p class="text">Forgetting to follow-up on sales</p>
+                </div>
+                <div class="list-item">
+                  <img
+                    src="./img/benefits/exclamation-point.svg"
+                    alt="exclamation-point"
+                    class="list-icon"
+                  />
+                  <p class="text">
+                    Yellow notes everywhere, tasks and things in the heads of
+                    people.
+                  </p>
+                </div>
+                <div class="list-item">
+                  <img
+                    src="./img/benefits/exclamation-point.svg"
+                    alt="exclamation-point"
+                    class="list-icon"
+                  />
+                  <p class="text">Manual approvals in mails that disappears</p>
+                </div>
+                <div class="list-item">
+                  <img
+                    src="./img/benefits/exclamation-point.svg"
+                    alt="exclamation-point"
+                    class="list-icon"
+                  />
+                  <p class="text">
+                    Not knowing if a customer got your quote or invoice
+                  </p>
+                </div>
+                <div class="list-item">
+                  <img
+                    src="./img/benefits/exclamation-point.svg"
+                    alt="exclamation-point"
+                    class="list-icon"
+                  />
+                  <p class="text">Not knowing how many quotes is converted</p>
+                </div>
+              </div>
+            </div>
+            <div class="benefits-item" data-el="acardion-gains-3">
+              <h2 class="benefits-title">
+                The Gains we got
+                <img
+                  src="./img/benefits/arrow-down.svg"
+                  alt="arrow down"
+                  class="benefits-icon"
+                  data-acardion="acardion-gains-3"
+                />
+              </h2>
+              <p class="text benefits-description">
+                We ask for 14 days were you get used to the new process of using
+                Orderstep, and then we guarantee these results. It does not take
+                longer. And then you will be running a more smooth business and
+                have much more control with your sales.
+              </p>
+              <div class="benefits-list">
+                <div class="list-item">
+                  <img
+                    src="./img/checkbox.svg"
+                    alt="checkbox"
+                    class="list-icon"
+                  />
+                  <p class="text">Automatically invoices the agreed amount</p>
+                </div>
+                <div class="list-item">
+                  <img
+                    src="./img/checkbox.svg"
+                    alt="checkbox"
+                    class="list-icon"
+                  />
+                  <p class="text">
+                    Being perceived as pro-active with the reminders in
+                    Orderstep
+                  </p>
+                </div>
+                <div class="list-item">
+                  <img
+                    src="./img/checkbox.svg"
+                    alt="checkbox"
+                    class="list-icon"
+                  />
+                  <p class="text">
+                    Automatic PDF created with company branding
+                  </p>
+                </div>
+                <div class="list-item">
+                  <img
+                    src="./img/checkbox.svg"
+                    alt="checkbox"
+                    class="list-icon"
+                  />
+                  <p class="text">
+                    Automatic follow-ups and easy overview of all sales that is
+                    not closed yet
+                  </p>
+                </div>
+                <div class="list-item">
+                  <img
+                    src="./img/checkbox.svg"
+                    alt="checkbox"
+                    class="list-icon"
+                  />
+                  <p class="text">
+                    All TODO's in a single easy managable overview.
+                  </p>
+                </div>
+                <div class="list-item">
+                  <img
+                    src="./img/checkbox.svg"
+                    alt="checkbox"
+                    class="list-icon"
+                  />
+                  <p class="text">
+                    Approvals happens on the portal and is stored in the system.
+                  </p>
+                </div>
+                <div class="list-item">
+                  <img
+                    src="./img/checkbox.svg"
+                    alt="checkbox"
+                    class="list-icon"
+                  />
+                  <p class="text">
+                    Orderstep tracks if customers opens mails and PDF's.
+                  </p>
+                </div>
+                <div class="list-item">
+                  <img
+                    src="./img/checkbox.svg"
+                    alt="checkbox"
+                    class="list-icon"
+                  />
+                  <p class="text">
+                    Keep track of all quotes, the conversion and also why they
+                    did not convert
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="benefits-row" data-tab="Others">
+            <div class="benefits-item" data-el="acardion-pains-4">
+              <h2 class="benefits-title">
+                The Pains we had 1
+                <img
+                  src="./img/benefits/arrow-down.svg"
+                  alt="arrow down"
+                  class="benefits-icon"
+                  data-acardion="acardion-pains-4"
+                />
+              </h2>
+              <p class="text benefits-description">
+                In the service industry you know how important it is to have
+                happy customers. And they will reward you with more business if
+                they are happy. You might recognize some of the pains below, if
+                so we are ready to help.
+              </p>
+              <div class="benefits-list">
+                <div class="list-item">
+                  <img
+                    src="./img/benefits/exclamation-point.svg"
+                    alt="exclamation-point"
+                    class="list-icon"
+                  />
+                  <p class="text">
+                    Forgetting to send or sending wrong monthly invoices.
+                  </p>
+                </div>
+
+                <div class="list-item">
+                  <img
+                    src="./img/benefits/exclamation-point.svg"
+                    alt="exclamation-point"
+                    class="list-icon"
+                  />
+                  <p class="text">
+                    Forgetting or never following up with customers
+                  </p>
+                </div>
+                <div class="list-item">
+                  <img
+                    src="./img/benefits/exclamation-point.svg"
+                    alt="exclamation-point"
+                    class="list-icon"
+                  />
+                  <p class="text">
+                    Manual work of creating a word template and converting to
+                    PDF and sending it.
+                  </p>
+                </div>
+                <div class="list-item">
+                  <img
+                    src="./img/benefits/exclamation-point.svg"
+                    alt="exclamation-point"
+                    class="list-icon"
+                  />
+                  <p class="text">Forgetting to follow-up on sales</p>
+                </div>
+                <div class="list-item">
+                  <img
+                    src="./img/benefits/exclamation-point.svg"
+                    alt="exclamation-point"
+                    class="list-icon"
+                  />
+                  <p class="text">
+                    Yellow notes everywhere, tasks and things in the heads of
+                    people.
+                  </p>
+                </div>
+                <div class="list-item">
+                  <img
+                    src="./img/benefits/exclamation-point.svg"
+                    alt="exclamation-point"
+                    class="list-icon"
+                  />
+                  <p class="text">Manual approvals in mails that disappears</p>
+                </div>
+                <div class="list-item">
+                  <img
+                    src="./img/benefits/exclamation-point.svg"
+                    alt="exclamation-point"
+                    class="list-icon"
+                  />
+                  <p class="text">
+                    Not knowing if a customer got your quote or invoice
+                  </p>
+                </div>
+                <div class="list-item">
+                  <img
+                    src="./img/benefits/exclamation-point.svg"
+                    alt="exclamation-point"
+                    class="list-icon"
+                  />
+                  <p class="text">Not knowing how many quotes is converted</p>
+                </div>
+              </div>
+            </div>
+            <div class="benefits-item" data-el="acardion-gains-4">
+              <h2 class="benefits-title">
+                The Gains we got
+                <img
+                  src="./img/benefits/arrow-down.svg"
+                  alt="arrow down"
+                  class="benefits-icon"
+                  data-acardion="acardion-gains-4"
+                />
               </h2>
               <p class="text benefits-description">
                 We ask for 14 days were you get used to the new process of using
@@ -498,11 +1105,10 @@
               </p>
               <button class="btn btn--service btn--border">
                 <img
-                    src="./img/service/arrow-right-green.svg"
-                    alt="arrow right"
-                    class="btn-icon"
-                  />
-                </svg>
+                  src="./img/service/arrow-right-green.svg"
+                  alt="arrow right"
+                  class="btn-icon"
+                />
                 view Prices and Packages
               </button>
             </div>
@@ -560,21 +1166,155 @@
         </div>
         <div class="container">
           <div class="features-btns">
-            <button class="btn btn--features">Branded PDF quote</button>
-            <button class="btn btn--blue">Follow-ups & TODO's</button>
-            <button class="btn btn--features">B2B Webshop</button>
-            <button class="btn btn--features">Recurring Subscriptions</button>
-            <button class="btn btn--features">Automation</button>
-            <button class="btn btn--features">Customer Portal</button>
-            <button class="btn btn--features">Calendar</button>
-            <button class="btn btn--features">Integrations</button>
+            <button class="btn btn--features" data-tab-btn="Branded PDF quote">
+              Branded PDF quote
+            </button>
+            <button
+              class="btn btn--features btn--blue"
+              data-tab-btn="Follow-ups & TODO's"
+            >
+              Follow-ups & TODO's
+            </button>
+            <button class="btn btn--features" data-tab-btn="B2B Webshop">
+              B2B Webshop
+            </button>
+            <button
+              class="btn btn--features"
+              data-tab-btn="Recurring Subscriptions"
+            >
+              Recurring Subscriptions
+            </button>
+            <button class="btn btn--features" data-tab-btn="Automation">
+              Automation
+            </button>
+            <button class="btn btn--features" data-tab-btn="Customer Portal">
+              Customer Portal
+            </button>
+            <button class="btn btn--features" data-tab-btn="Calendar">
+              Calendar
+            </button>
+            <button class="btn btn--features" data-tab-btn="Integrations">
+              Integrations
+            </button>
           </div>
-          <div class="features-row">
+          <div class="features-row" data-tab="Branded PDF quote">
+            <div class="features-image">
+              <img src="./img/features/image.png" alt="image" />
+            </div>
+            <div class="features-content">
+              <h2 class="features-title">Branded PDF quote</h2>
+              <p class="features-text text">
+                Forgetting to followup, or just don't want to bother. Make it
+                easy for yourself and let Orderstep remember the things you have
+                to do. All you have to do, is just create your quote in
+                Orderstep, or do a quick note on the customer. And Orderstep
+                will remind you to followup so you do not forget. Its less than
+                2 minutes of your time, for not having to worry about it!
+              </p>
+            </div>
+          </div>
+          <div class="features-row" data-tab="Follow-ups & TODO's">
             <div class="features-image">
               <img src="./img/features/image.png" alt="image" />
             </div>
             <div class="features-content">
               <h2 class="features-title">Follow-ups & TODO's</h2>
+              <p class="features-text text">
+                Forgetting to followup, or just don't want to bother. Make it
+                easy for yourself and let Orderstep remember the things you have
+                to do. All you have to do, is just create your quote in
+                Orderstep, or do a quick note on the customer. And Orderstep
+                will remind you to followup so you do not forget. Its less than
+                2 minutes of your time, for not having to worry about it!
+              </p>
+            </div>
+          </div>
+          <div class="features-row" data-tab="B2B Webshop">
+            <div class="features-image">
+              <img src="./img/features/image.png" alt="image" />
+            </div>
+            <div class="features-content">
+              <h2 class="features-title">B2B Webshop</h2>
+              <p class="features-text text">
+                Forgetting to followup, or just don't want to bother. Make it
+                easy for yourself and let Orderstep remember the things you have
+                to do. All you have to do, is just create your quote in
+                Orderstep, or do a quick note on the customer. And Orderstep
+                will remind you to followup so you do not forget. Its less than
+                2 minutes of your time, for not having to worry about it!
+              </p>
+            </div>
+          </div>
+          <div class="features-row" data-tab="Recurring Subscriptions">
+            <div class="features-image">
+              <img src="./img/features/image.png" alt="image" />
+            </div>
+            <div class="features-content">
+              <h2 class="features-title">Recurring Subscriptions</h2>
+              <p class="features-text text">
+                Forgetting to followup, or just don't want to bother. Make it
+                easy for yourself and let Orderstep remember the things you have
+                to do. All you have to do, is just create your quote in
+                Orderstep, or do a quick note on the customer. And Orderstep
+                will remind you to followup so you do not forget. Its less than
+                2 minutes of your time, for not having to worry about it!
+              </p>
+            </div>
+          </div>
+          <div class="features-row" data-tab="Automation">
+            <div class="features-image">
+              <img src="./img/features/image.png" alt="image" />
+            </div>
+            <div class="features-content">
+              <h2 class="features-title">Automation</h2>
+              <p class="features-text text">
+                Forgetting to followup, or just don't want to bother. Make it
+                easy for yourself and let Orderstep remember the things you have
+                to do. All you have to do, is just create your quote in
+                Orderstep, or do a quick note on the customer. And Orderstep
+                will remind you to followup so you do not forget. Its less than
+                2 minutes of your time, for not having to worry about it!
+              </p>
+            </div>
+          </div>
+          <div class="features-row" data-tab="Customer Portal">
+            <div class="features-image">
+              <img src="./img/features/image.png" alt="image" />
+            </div>
+            <div class="features-content">
+              <h2 class="features-title">Customer Portal</h2>
+              <p class="features-text text">
+                Forgetting to followup, or just don't want to bother. Make it
+                easy for yourself and let Orderstep remember the things you have
+                to do. All you have to do, is just create your quote in
+                Orderstep, or do a quick note on the customer. And Orderstep
+                will remind you to followup so you do not forget. Its less than
+                2 minutes of your time, for not having to worry about it!
+              </p>
+            </div>
+          </div>
+          <div class="features-row" data-tab="Calendar">
+            <div class="features-image">
+              <img src="./img/features/image.png" alt="image" />
+            </div>
+            <div class="features-content">
+              <h2 class="features-title">Calendar</h2>
+              <p class="features-text text">
+                Forgetting to followup, or just don't want to bother. Make it
+                easy for yourself and let Orderstep remember the things you have
+                to do. All you have to do, is just create your quote in
+                Orderstep, or do a quick note on the customer. And Orderstep
+                will remind you to followup so you do not forget. Its less than
+                2 minutes of your time, for not having to worry about it!
+              </p>
+            </div>
+          </div>
+          <div class="features-row" data-tab="Integrations">
+            <div class="features-image">
+              <img src="./img/features/image.png" alt="image" />
+            </div>
+            <div class="features-content">
+              <h2 class="features-title">Integrations</h2>
               <p class="features-text text">
                 Forgetting to followup, or just don't want to bother. Make it
                 easy for yourself and let Orderstep remember the things you have
@@ -604,17 +1344,28 @@
             <div class="swiper" id="read-slider">
               <div class="swiper-wrapper">
                 <div class="swiper-slide">
-                  <img src="./img/read/stars.svg" alt="stars" class="slide-stars">
+                  <img
+                    src="./img/read/stars.svg"
+                    alt="stars"
+                    class="slide-stars"
+                  />
                   <p class="slide-text text">
-                    “Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mussed diam eget risus...
+                    “Donec ullamcorper nulla non metus auctor fringilla.
+                    Vestibulum id ligula porta felis euismod semper. Cum sociis
+                    natoque penatibus et magnis dis parturient montes, nascetur
+                    ridiculus mussed diam eget risus...
                   </p>
                   <a href="#" class="slide-play">
-                    <img src="./img/read/play-video.svg" alt="play video">
+                    <img src="./img/read/play-video.svg" alt="play video" />
                     play video
                   </a>
 
                   <div class="slide-user">
-                    <img src="./img/read/niels-barfod.png" alt="niels barfod" class="slide-avatar">
+                    <img
+                      src="./img/read/niels-barfod.png"
+                      alt="niels barfod"
+                      class="slide-avatar"
+                    />
                     <div class="slide-info">
                       <h4 class="slide-username">Niels Barfod Jakobsen</h4>
                       <p class="slide-position">CEO - Løwener, Danmark</p>
@@ -622,13 +1373,26 @@
                   </div>
                 </div>
                 <div class="swiper-slide">
-                  <img src="./img/read/stars.svg" alt="stars" class="slide-stars">
+                  <img
+                    src="./img/read/stars.svg"
+                    alt="stars"
+                    class="slide-stars"
+                  />
                   <p class="slide-text text">
-                    “Nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.”
+                    “Nulla non metus auctor fringilla. Vestibulum id ligula
+                    porta felis euismod semper. Cum sociis natoque penatibus et
+                    magnis dis parturient montes, nascetur ridiculus mus.
+                    Maecenas sed diam eget risus varius blandit sit amet non
+                    magna. Vivamus sagittis lacus vel augue laoreet rutrum
+                    faucibus dolor auctor.”
                   </p>
-                  
+
                   <div class="slide-user">
-                    <img src="./img/read/ben-woodward.png" alt="ben woodward" class="slide-avatar">
+                    <img
+                      src="./img/read/ben-woodward.png"
+                      alt="ben woodward"
+                      class="slide-avatar"
+                    />
                     <div class="slide-info">
                       <h4 class="slide-username">Ben WoodWard</h4>
                       <p class="slide-position">Global Channel Manager - IFS</p>
@@ -636,17 +1400,28 @@
                   </div>
                 </div>
                 <div class="swiper-slide">
-                  <img src="./img/read/stars.svg" alt="stars" class="slide-stars">
+                  <img
+                    src="./img/read/stars.svg"
+                    alt="stars"
+                    class="slide-stars"
+                  />
                   <p class="slide-text text">
-                    “Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mussed diam eget risus...
+                    “Donec ullamcorper nulla non metus auctor fringilla.
+                    Vestibulum id ligula porta felis euismod semper. Cum sociis
+                    natoque penatibus et magnis dis parturient montes, nascetur
+                    ridiculus mussed diam eget risus...
                   </p>
                   <a href="#" class="slide-play">
-                    <img src="./img/read/play-video.svg" alt="play video">
+                    <img src="./img/read/play-video.svg" alt="play video" />
                     play video
                   </a>
 
                   <div class="slide-user">
-                    <img src="./img/read/niels-barfod.png" alt="niels barfod" class="slide-avatar">
+                    <img
+                      src="./img/read/niels-barfod.png"
+                      alt="niels barfod"
+                      class="slide-avatar"
+                    />
                     <div class="slide-info">
                       <h4 class="slide-username">Niels Barfod Jakobsen</h4>
                       <p class="slide-position">CEO - Løwener, Danmark</p>
@@ -654,13 +1429,26 @@
                   </div>
                 </div>
                 <div class="swiper-slide">
-                  <img src="./img/read/stars.svg" alt="stars" class="slide-stars">
+                  <img
+                    src="./img/read/stars.svg"
+                    alt="stars"
+                    class="slide-stars"
+                  />
                   <p class="slide-text text">
-                    “Nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Maecenas sed diam eget risus varius blandit sit amet non magna. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.”
+                    “Nulla non metus auctor fringilla. Vestibulum id ligula
+                    porta felis euismod semper. Cum sociis natoque penatibus et
+                    magnis dis parturient montes, nascetur ridiculus mus.
+                    Maecenas sed diam eget risus varius blandit sit amet non
+                    magna. Vivamus sagittis lacus vel augue laoreet rutrum
+                    faucibus dolor auctor.”
                   </p>
-                  
+
                   <div class="slide-user">
-                    <img src="./img/read/ben-woodward.png" alt="ben woodward" class="slide-avatar">
+                    <img
+                      src="./img/read/ben-woodward.png"
+                      alt="ben woodward"
+                      class="slide-avatar"
+                    />
                     <div class="slide-info">
                       <h4 class="slide-username">Ben WoodWard</h4>
                       <p class="slide-position">Global Channel Manager - IFS</p>
@@ -674,7 +1462,10 @@
                 <img src="./img/read/slider-left-arrow.svg" alt="arrow left" />
               </div>
               <div class="read-navigation__right">
-                <img src="./img/read/slider-right-arrow.svg" alt="arrow right" />
+                <img
+                  src="./img/read/slider-right-arrow.svg"
+                  alt="arrow right"
+                />
               </div>
             </div>
           </div>
@@ -683,20 +1474,27 @@
       <section class="ready">
         <div class="container container--small">
           <div class="ready-image">
-            <img src="./img/ready/man.png" alt="man">
+            <img src="./img/ready/man.png" alt="man" />
           </div>
           <div class="ready-info">
             <h1 class="title">Ready to step up your sales game?</h1>
             <div class="ready-image ready-image--mobile">
-              <img src="./img/ready/man.png" alt="man">
+              <img src="./img/ready/man.png" alt="man" />
             </div>
             <div class="ready-row">
-              <img src="./img/ready/in.svg" alt="in" class="ready-in">
+              <img src="./img/ready/in.svg" alt="in" class="ready-in" />
               <p class="ready-text">
-                Klaes is waiting to help you, get a demo below, or just get starter for free!
+                Klaes is waiting to help you, get a demo below, or just get
+                starter for free!
               </p>
             </div>
-            <p class="text">If you want to try out Orderstep or hear more about how we can help your business. Then we are ready to listen and advice on how you can turn Orderstep into a success for your company. We have long track record of sucessful implementation and we never give up!</p>
+            <p class="text">
+              If you want to try out Orderstep or hear more about how we can
+              help your business. Then we are ready to listen and advice on how
+              you can turn Orderstep into a success for your company. We have
+              long track record of sucessful implementation and we never give
+              up!
+            </p>
             <div class="ready-btns">
               <button class="btn btn--service">
                 <img
