@@ -1,7 +1,6 @@
 .btn {
   display: grid;
   align-items: end;
-  gap: 10px;
   justify-content: center;
   grid-template-columns: max-content max-content;
   border-radius: 10px;
@@ -33,6 +32,7 @@
     padding: 25px 40px;
     background-color: #5ec291;
     border: 1px solid #5ec291;
+    gap: 10px;
     border-radius: 32px;
   }
 

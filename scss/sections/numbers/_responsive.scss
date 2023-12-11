@@ -1,0 +1,146 @@
+@media (max-width: 1200px) {
+  .numbers {
+    &-item {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+
+    &-statistic {
+      margin-bottom: 10px;
+      font-size: 29px;
+    }
+
+    &-title {
+      font-size: 16px;
+    }
+  }
+}
+
+@media (max-width: 950px) {
+  .numbers {
+    &-items {
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .description {
+      margin-bottom: 10px;
+    }
+
+    &-icon {
+      margin-bottom: 10px;
+    }
+
+    &-item {
+      padding-top: 30px;
+      padding-bottom: 30px;
+      display: grid;
+      align-items: center;
+
+      &:not(:last-child):before {
+        content: unset;
+      }
+
+      &:first-child:before,
+      &:nth-child(2):before,
+      &:nth-child(3):before,
+      &:nth-child(4):before {
+        content: '';
+        position: absolute;
+        top: auto;
+        height: 150px;
+        width: 1px;
+        background-color: #fff;
+        opacity: 0.2;
+      }
+
+      &:nth-child(2):before,
+      &:nth-child(3):before {
+        right: 0;
+        bottom: 0;
+        left: 0;
+        height: 1px;
+        width: 150px;
+        margin: 0 auto;
+      }
+
+      &:nth-child(3):before {
+        top: 0;
+      }
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .numbers {
+    &-icon {
+      width: 90px;
+      height: 90px;
+
+      img {
+        width: 40px;
+        height: 40px;
+      }
+    }
+  }
+}
+
+@media (max-width: 570px) {
+  .numbers {
+    &-statistic {
+      font-size: 20px;
+      margin-bottom: 0;
+    }
+
+    &-title {
+      font-size: 13px;
+    }
+  }
+}
+
+@media (max-width: 420px) {
+  .numbers {
+    padding-bottom: 10px;
+
+    &-items {
+    }
+
+    &-icon {
+      width: 80px;
+      height: 80px;
+
+      img {
+        width: 32px;
+        height: 32px;
+      }
+    }
+
+    &-item {
+      &:first-child:before,
+      &:nth-child(2):before,
+      &:nth-child(3):before,
+      &:nth-child(4):before {
+        height: 100px;
+        width: 1px;
+      }
+
+      &:nth-child(2):before,
+      &:nth-child(3):before {
+        height: 1px;
+        width: 100px;
+      }
+
+      &:nth-child(3):before {
+        top: 0;
+      }
+    }
+
+    &-statistic {
+      font-size: 15px;
+      line-height: normal;
+    }
+
+    &-title {
+      font-size: 11px;
+    }
+  }
+}

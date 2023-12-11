@@ -1,13 +1,11 @@
 @media (max-width: 666px) {
-  .description {
-    font-size: 16px;
+  .text {
     line-height: 18px;
-    margin-bottom: 30px;
   }
 }
 
 @media (max-width: 420px) {
-  .description {
+  .text {
     font-size: 14px;
   }
 }

@@ -1,0 +1,97 @@
+@media (max-width: 1200px) {
+  .systems {
+    .container:not(.container.container--small) {
+      overflow-x: scroll;
+      max-width: 100%;
+      width: 100%;
+      padding: 0 20px;
+      -ms-overflow-style: none;
+      scrollbar-width: none;
+
+      &::-webkit-scrollbar {
+        display: none;
+      }
+    }
+
+    &-services {
+      grid-template-columns: repeat(3, 350px);
+      gap: 20px;
+
+      .service {
+        padding: 35px 25px;
+
+        &-title {
+          font-size: 21px;
+          margin-bottom: 20px;
+        }
+
+        &-icon {
+          margin-bottom: 30px;
+          width: 51px;
+          height: 51px;
+        }
+
+        &-text {
+          line-height: 18px;
+          font-size: 15px;
+        }
+
+        &-list {
+          gap: 7px;
+          margin-top: 20px;
+
+          .list-item {
+            gap: 10px;
+
+            .text {
+              font-size: 14px;
+            }
+          }
+        }
+
+        &-btns {
+          gap: 10px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 950px) {
+  .systems .description {
+    margin-bottom: 40px;
+  }
+}
+
+@media (max-width: 768px) {
+  .systems-services .service {
+    &-list {
+      margin-top: 10px;
+      padding-top: 20px;
+    }
+
+    &-pricing {
+      margin-bottom: 20px;
+
+      .pricing-start {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
+@media (max-width: 420px) {
+  .systems {
+    &-services {
+      grid-template-columns: repeat(3, 246px);
+
+      .service {
+        padding: 30px 15px;
+
+        &-text {
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}

@@ -1,75 +1,88 @@
-@media (max-width: 1120px) {
+@media (max-width: 950px) {
   .benefits {
     .description {
-      margin-bottom: 60px;
+      margin-bottom: 40px;
     }
 
-    .benefits-title {
-      font-size: 23px;
+    &-btns {
+      gap: 10px;
+      margin-bottom: 0;
+    }
+
+    &-title {
       margin-bottom: 20px;
     }
-  }
-}
 
-@media (max-width: 850px) {
-  .benefits {
-    .benefits-row {
-      gap: 35px;
-    }
-  }
-}
-
-@media (max-width: 768px) {
-  .benefits {
-    padding: 50px 0;
-
-    .benefits-row {
+    &-row {
       grid-template-columns: 1fr;
       gap: 30px;
     }
 
-    &-btns {
-      margin-bottom: 35px;
-      gap: 10px;
+    &-icon {
+      display: block;
     }
 
-    &-gains {
-      padding-top: 25px;
-      border-top: 1px solid rgba(108, 108, 108, 0.15);
-    }
-
-    &-gains,
-    &-pains {
+    &-item {
       grid-template-rows: auto;
+      padding-top: 30px;
+
+      &:last-child {
+        border-top: 1px solid rgba(108, 108, 108, 0.15);
+      }
+
+      .benefits {
+        &-list {
+          display: none;
+        }
+
+        &-description {
+          margin-bottom: 0;
+        }
+      }
+
+      &--show {
+        .benefits {
+          &-list {
+            display: grid;
+          }
+
+          &-description {
+            margin-bottom: 20px;
+          }
+
+          &-icon {
+            transform: rotate(180deg);
+          }
+        }
+      }
+    }
+
+    &-list {
+      .list-item {
+        gap: 10px;
+      }
     }
 
     &-description {
       border: none;
+      margin-bottom: 20px;
       padding-bottom: 0;
-      margin-bottom: 30px;
-    }
-
-    .container {
-      width: 94%;
-    }
-
-    .description {
-      margin-bottom: 30px;
     }
   }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 666px) {
   .benefits {
-    padding: 40px 0;
-
-    .benefits-title {
-      font-size: 19px;
-      margin-bottom: 15px;
+    .text {
+      line-height: 18px;
     }
+  }
+}
 
-    &-list .list-item {
-      gap: 15px;
+@media (max-width: 530px) {
+  .benefits {
+    &-title {
+      font-size: 20px;
     }
   }
 }

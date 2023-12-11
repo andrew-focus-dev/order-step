@@ -1,3 +1,40 @@
+.benefits,
+.features,
+.numbers,
+.read,
+.ready,
+.systems,
+.trusted,
+.free {
+  padding: 100px 0;
+}
+
+@media (max-width: 950px) {
+  .benefits,
+  .features,
+  .numbers,
+  .read,
+  .ready,
+  .systems,
+  .trusted,
+  .free {
+    padding: 50px 0;
+  }
+}
+
+@media (max-width: 420px) {
+  .benefits,
+  .features,
+  .numbers,
+  .read,
+  .ready,
+  .systems,
+  .trusted,
+  .free {
+    padding: 40px 0;
+  }
+}
+
 @import './trusted/index';
 @import './trusted/responsive';
 

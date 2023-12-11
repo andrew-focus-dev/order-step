@@ -1,0 +1,70 @@
+@media (max-width: 950px) {
+  .read {
+    .description {
+      margin-bottom: 30px;
+    }
+
+    &-slider {
+      .swiper-slide {
+        padding: 30px 16px;
+
+        .slide-user {
+          justify-content: center;
+          margin-top: 35px;
+        }
+
+        .slide-stars {
+          width: 130px;
+          margin: 0 auto 20px;
+        }
+
+        .slide-text {
+          text-align: center;
+          margin-bottom: 20px;
+        }
+
+        .slide-play {
+          justify-content: center;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 420px) {
+  .read {
+    &-slider {
+      width: 95%;
+      margin: 0 auto;
+
+      .swiper-slide .slide {
+        &-info {
+          gap: 20px;
+        }
+
+        &-username {
+          font-size: 16px;
+          margin-bottom: 8px;
+        }
+
+        &-avatar {
+          border-radius: 30px;
+        }
+
+        &-position {
+          font-size: 13px;
+          line-height: normal;
+        }
+
+        &-play {
+          font-size: 16px;
+          gap: 6px;
+
+          img {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+  }
+}

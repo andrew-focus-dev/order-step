@@ -1,0 +1,33 @@
+@media (max-width: 950px) {
+  .free {
+    padding-top: 0;
+
+    &-wraper {
+      padding: 40px 17px;
+      border-radius: 10px;
+      border: 1px solid #5ec291;
+    }
+
+    &-row {
+      gap: 50px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .free {
+    &-row {
+      grid-template-columns: 1fr;
+      gap: 20px;
+    }
+  }
+}
+
+@media (max-width: 420px) {
+  .free {
+    .btn {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+  }
+}

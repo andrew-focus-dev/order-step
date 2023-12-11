@@ -1,6 +1,4 @@
 .ready {
-  padding: 100px 0;
-
   .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -12,6 +10,10 @@
     grid-template-columns: max-content 1fr;
     gap: 24px;
     margin-bottom: 15px;
+  }
+
+  &-image.ready-image--mobile {
+    display: none;
   }
 
   &-in {

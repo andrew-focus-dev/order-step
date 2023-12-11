@@ -2,7 +2,6 @@
 @import './utils/reset';
 @import './utils/variable';
 @import './utils/mixins';
-@import './components/index';
 @import './vendors/index';
 
 * {
@@ -11,7 +10,7 @@
 
 .container {
   max-width: 1164px;
-  width: 95%;
+  width: 93%;
   margin: 0 auto;
 
   &.container--small {
@@ -19,5 +18,10 @@
   }
 }
 
+section {
+  overflow: hidden;
+}
+
 @import './layout/index';
 @import './sections/index';
+@import './components/index';
