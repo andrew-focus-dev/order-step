@@ -10,14 +10,19 @@
   text-transform: uppercase;
   padding: 20px 36px;
   font-size: 16px;
+  transition: background-color 0.3s, color 0.3s;
 
   &:hover {
     cursor: pointer;
+    background-color: #3454d8;
+    color: #fff;
+    transition: background-color 0.3s, color 0.3s;
   }
 
   &-icon {
     display: block;
-    width: 9px;
+    width: 10px;
+    height: 16px;
   }
 
   &.btn--blue {
@@ -32,15 +37,57 @@
     border: 1px solid #5ec291;
     gap: 10px;
     border-radius: 32px;
+
+    .btn-icon path {
+      fill: #fff;
+      transition: fill 0.3s;
+    }
+
+    &:hover {
+      background-color: #fff;
+      color: #000;
+      transition: background-color 0.3s, color 0.3s;
+
+      .btn-icon {
+        path {
+          fill: #5ec291;
+          transition: fill 0.3s;
+        }
+      }
+    }
   }
 
   &.btn--border {
     background-color: #fff;
     color: #000;
+    transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+
+    .btn-icon path {
+      fill: #5ec291;
+      transition: fill 0.3s;
+    }
+
+    &:hover {
+      color: #fff;
+      background-color: #5ec291;
+      border-color: #5ec291;
+      transition: background-color 0.3s, border-color 0.3s, color 0.3s;
+
+      .btn-icon path {
+        fill: #fff;
+        transition: fill 0.3s;
+      }
+    }
   }
 
   &.btn--features {
     background-color: #f1f8f8;
+
+    &:hover {
+      background-color: #3454d8;
+      color: #fff;
+      transition: background-color 0.3s, color 0.3s;
+    }
   }
 
   &.btn--features.btn--blue {
